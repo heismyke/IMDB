@@ -49,5 +49,5 @@ This project is a backend API clone of the Internet Movie Database (IMDB), devel
 
 ---
 
-## 📁 Project Structure
+
 
