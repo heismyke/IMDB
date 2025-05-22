@@ -1,77 +1,53 @@
-# IMDB API Clone With DRF
+# 🎬 IMDB API Clone – Django REST Framework
 
-<h3>📝 Reference Reading Links (Arranged According To Lectures)</h3>
-<br>
+**Project Type:** Personal Project  
+**Year:** 2021  
+**Role:** Backend Developer
 
-<b>🎥 Understanding REST API</b>
-<ul>
-    <li>https://towardsdatascience.com/introduction-to-rest-apis-90b5d9676004</li>
-</ul>
-<br>
+---
 
-<b>🎥 Basic Django Setup</b>
-<ul>
-    <li>https://www.djangoproject.com/</li>
-    <li>https://code.visualstudio.com/download</li>
-    <li>https://www.tabnine.com/</li>
-</ul>
-<br>
+## 🧩 About the Project
 
-<b>🎥 DRF Introduction</b>
-<ul>
-    <li>https://www.django-rest-framework.org/</li>
-</ul>
-<br>
+This project is a backend API clone of the Internet Movie Database (IMDB), developed using Django REST Framework (DRF) and PostgreSQL. It offers endpoints for managing movies, reviews, and user interactions, incorporating robust authentication, filtering, and testing mechanisms.
 
-<b>🎥 Django Relationships</b>
-<ul>
-    <li>https://docs.djangoproject.com/en/3.1/topics/db/examples/</li>
-</ul>
-<br>
+---
 
-<b>🎥 Postman</b>
-<ul>
-    <li>https://www.postman.com/</li>
-    <li>https://www.postman.com/downloads/</li>
-</ul>
-<br>
+## 💻 Technologies Used
 
-<b>🎥 Basic Authentication</b>
-<ul>
-    <li>https://www.base64encode.org/</li>
-    <li>https://www.toolsqa.com/postman/basic-authentication-in-postman/</li>
-</ul>
-<br>
+- **Backend Framework:** Django, Django REST Framework
+- **Database:** PostgreSQL
+- **Authentication:** Basic Authentication, JWT Authentication
+- **Testing:** Test-Driven Development (TDD) with Django's Test Framework
+- **API Features:** Filtering, Searching, Ordering, Throttling
+- **API Documentation:** DRF's Browsable API
+- **Tools:** Postman for API testing
 
-<b>🎥 JWT Authentication</b>
-<ul>
-<li>https://jwt.io/</li>
-<li>https://medium.com/devgorilla/how-to-log-out-when-using-jwt-a8c7823e8a6</li>
-<li>https://simpleisbetterthancomplex.com/tutorial/2018/12/19/how-to-use-jwt-authentication-with-django-rest-framework.html</li>
-<li>https://medium.com/django-rest/django-rest-framework-jwt-authentication-94bee36f2af8https://stackoverflow.com/questions/61547014/restful-uri-trailing-slash-or-no-trailing-slash</li>
-</ul>
-<br>
+---
 
-<b>🎥 Throttling Introduction</b>
-<ul>
-  <li>https://medium.com/analytics-vidhya/throttling-requests-with-django-rest-framework-for-different-http-methods-3ab0461044c</li>
-</ul>
-<br>
+## 🔑 Key Features
 
-<b>🎥 Filtering, Searching, Ordering</b>
-<ul>
-  <li>https://django-filter.readthedocs.io/en/stable/</li>
-  <li>https://stackoverflow.com/a/36940373/7846238</li>
-</ul>
-<br>
+- **User Authentication:**
+  - Implemented both Basic and JWT authentication mechanisms to secure API endpoints.
+  
+- **Movie Management:**
+  - CRUD operations for movies, including details like title, description, release date, and ratings.
+  
+- **Reviews and Ratings:**
+  - Users can add reviews and ratings to movies, with proper relational mapping between users and movies.
+  
+- **Filtering, Searching, and Ordering:**
+  - Enabled dynamic filtering, searching, and ordering of movie listings based on various parameters.
+  
+- **Throttling:**
+  - Implemented request rate limiting to prevent abuse and ensure fair usage of the API.
+  
+- **Browsable API:**
+  - Utilized DRF's browsable API feature for easy navigation and testing of endpoints.
+  
+- **Test-Driven Development:**
+  - Developed comprehensive unit tests to ensure reliability and facilitate future enhancements.
 
-<b>🎥 Browsable API Update</b>
-<ul>
-  <li>https://stackoverflow.com/questions/11898065/how-to-disable-admin-style-browsable-interface-of-django-rest-framework</li>
-</ul>
-<br>
+---
 
-<b>🎥 Test Driven Development</b>
-<ul>
-  <li>https://medium.com/@ksarthak4ever/test-driven-development-tdd-in-django-and-django-rest-framework-drf-a889a8068cb7</li>
-</ul># IMDB-clone-Django
+## 📁 Project Structure
+
